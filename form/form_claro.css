@@ -1,0 +1,381 @@
+
+/* modo claro */
+body {
+    margin:0px;
+    background-color: #D6D9DF;
+}
+@media only screen and (max-width:767px){
+    #casita{
+        height:50px;
+        width: 50px;
+    }
+
+    #perfil{
+        height: 60px;
+        width: 60px;
+    }
+
+    #modoInterruptor {
+        height: 50px;
+        width: 50px;
+        margin-top: 1%;
+    }
+
+body{
+    font-size:16px;
+}
+
+h1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 26, 97);
+    font: white;
+    -webkit-text-fill-color: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 2%;
+    -webkit-text-fill-color: #ACAEB3;
+}
+
+.anime{
+    -webkit-text-fill-color: grey;
+}
+
+#Title {
+    margin-bottom: 2%;
+    font-size: 39px; 
+    margin-left: 5%;
+}
+
+#texto1 {
+    font-size: 40px; 
+    margin-bottom: 35px;
+    margin-left: 5%;
+}
+
+
+label {
+    margin-top: 2px;
+    display: inline-block;
+    padding: 3px;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.margen{
+    margin-top: 2%;
+}
+
+input[type="text"], input[type="number"], textarea {
+    -webkit-text-fill-color: black;
+    font-size: 25px;
+}
+#abajo{
+    background-color: rgb(7, 20, 69);
+    padding-top: 0.5%;
+    margin-top: 2%;
+}
+
+.theme{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.fotos-theme{
+    margin-left: 5%;
+
+}
+
+.logout{
+    margin-left: 5%;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+.ultimo{
+    padding-bottom: 5%;
+}
+
+/*Lo añado para el submit.html y así no tener que crear otro .css específico para el submit*/
+p{
+    font-size: 60px;
+    margin-left: 1%;
+}
+
+.img1{
+    margin-left: 14%;
+    width: 70%;
+    height: 20%;
+    margin-right: 14%;
+}
+
+#centrar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+}
+
+@media only screen and (min-width:1200px)and (max-width: 3000px){
+
+    h1{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(7, 26, 97);
+        font: white;
+        -webkit-text-fill-color: white;
+        font-size: 50px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    #casita{
+        height:50px;
+        width: 50px;
+    }
+
+    #perfil{
+        height: 60px;
+        width: 60px;
+    }
+
+    #modoInterruptor {
+        height: 50px;
+        width: 50px;
+        margin-top: 1%;
+    }
+    
+    
+    #links{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        font-size: 35px;
+        margin: 2%;
+        -webkit-text-fill-color: #ACAEB3;
+    }
+    
+    .anime{
+        -webkit-text-fill-color: grey;
+    }
+    
+    #Title {
+        margin-bottom: 2%;
+        font-size: 37px; 
+        margin-left: 5%;
+    }
+    
+    #texto1 {
+        font-size: 30px; 
+        margin-bottom: 35px;
+        margin-left: 5%;
+    }
+    
+    
+    label {
+        margin-top: 2px;
+        display: inline-block;
+        padding: 3px;
+        font-size: 28px;
+        margin-left: 5%;
+    }
+    
+    .margen{
+        margin-top: 2%;
+    }
+    
+    input[type="text"], input[type="number"], textarea {
+        -webkit-text-fill-color: black;
+        font-size: 20px;
+    }
+    #abajo{
+        background-color: rgb(7, 20, 69);
+        padding-top: 0.5%;
+        margin-top: 2%;
+    }
+    
+    .theme{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 5%;
+        font-size: 35px;
+    }
+    
+    .fotos-theme{
+        margin-left: 5%;
+    
+    }
+    
+    .logout{
+        margin-left: 5%;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        font-size: 30px;
+        padding-top: 2%;
+    }
+    
+    .ultimo{
+        padding-bottom: 5%;
+    }
+    
+    /*Lo añado para el submit.html y así no tener que crear otro .css específico para el submit*/
+    p{
+        font-size: 80px;
+        margin-left: 5%;
+    }
+    
+    .img1{
+        margin-left: 12%;
+        width: 1200px;
+        height: 675px;
+        margin-right: 12%;
+    }
+    
+    #centrar{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+}
+
+@media only screen and (min-width:3001px){
+    h1{
+        width: 100%;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(7, 26, 97);
+        font: white;
+        -webkit-text-fill-color: white;
+        font-size: 70px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    #casita{
+        height:150px;
+        width: 150px;
+    }
+    body{
+        font-size:70px;
+    }
+
+    #perfil{
+        height:160px;
+        width: 160px;
+    }
+
+    #modoInterruptor {
+        height: 120px;
+        width: 120px;
+        margin-top: 1%;
+    }
+    
+    
+    #links{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        font-size: 52px;
+        margin: 2%;
+        -webkit-text-fill-color: #ACAEB3;
+    }
+    
+    .anime{
+        -webkit-text-fill-color: grey;
+    }
+    
+    #Title {
+        margin-bottom: 2%;
+        font-size: 65px; 
+        margin-left: 5%;
+    }
+    
+    #texto1 {
+        font-size: 55px; 
+        margin-bottom: 35px;
+        margin-left: 5%;
+    }
+    
+    
+    label {
+        margin-top: 2px;
+        display: inline-block;
+        padding: 18px;
+        font-size: 50px;
+        margin-left: 5%;
+    }
+    
+    .margen{
+        margin-top: 2%;
+    }
+    
+    input[type="text"], input[type="number"], textarea {
+        -webkit-text-fill-color: black;
+        font-size: 40px;
+    }
+    #abajo{
+        background-color: rgb(7, 20, 69);
+        padding-top: 0.5%;
+        margin-top: 2%;
+    }
+    
+    .theme{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 5%;
+        font-size: 60px;
+    }
+    
+    .fotos-theme{
+        margin-left: 5%;
+    
+    }
+    
+    .logout{
+        margin-left: 5%;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        font-size: 48px;
+        padding-top: 2%;
+    }
+    
+    .ultimo{
+        padding-bottom: 5%;
+    }
+    
+    /*Lo añado para el submit.html y así no tener que crear otro .css específico para el submit*/
+    p{
+        font-size: 80px;
+        margin-left: 1%;
+    }
+    
+    .img1{
+        margin-left: 14%;
+        width: 70%;
+        height: 45%;
+        margin-right: 14%;
+    }
+    
+    #centrar{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+}

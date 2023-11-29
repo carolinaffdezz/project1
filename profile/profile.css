@@ -1,0 +1,777 @@
+body{
+    margin:0px;
+    background-color: rgba(18, 35, 96, 0.911);
+    -webkit-text-fill-color: aliceblue;
+}
+
+
+@media only screen and (max-width:767px) {
+h1{
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 26, 97);
+    font: white;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 190px;
+}
+
+div img {
+    width: 100px;
+    height: 140px;
+}
+
+a img{
+    height:50px;
+    width: 50px;
+}
+
+#casita{
+    height:40px;
+    width: 40px;
+}
+
+.imagen-superpuesta {
+position: absolute;
+bottom: 0px;
+left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+width: 130px;
+}
+
+.texto-inferior {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff; /* Color de texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Espaciado interno para el texto */
+    left:20px;
+    font-size: 25px;
+}
+
+#links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 2%;
+}
+
+#numeros{
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 21px;
+    -webkit-text-fill-color: rgb(50, 163, 250);
+}
+
+#numeros2{
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#numeros3{
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 21px;
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-top: 2.5%;
+}
+
+#social{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5%;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.activity{
+    font-size: 30px;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+}
+
+.status{
+    background-color: rgba(45, 68, 149, 0.866);
+}
+
+.status-entry {
+    background-color: rgba(45, 68, 149, 0.866);
+    display: flex;
+    font-size: 16px;
+    margin-top: 2%;
+
+  }
+  
+  .reply-entry {
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+    margin-top: 2%;
+    background-color: rgba(45, 68, 149, 0.866);
+    margin-left:2%;
+
+  }
+  
+  .user-avatar img {
+    border-radius: 50%;
+  }
+  .user-avatar{
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+.user-name{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    font-size: 16px;
+}
+
+  .status-entry,
+.reply-entry {
+  position: relative;
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+
+.timestamp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  color: #888;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+  
+
+.write-status {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 40px;
+    cursor: text;
+    caret-color: white;
+}
+
+#gente{
+    margin-left: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display: flex;
+    font-size: 16px;
+    margin-right: 5%;
+    position:relative;
+}
+
+.visto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+}
+
+.naruto{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 10px;
+}
+
+.time{
+    position:absolute;
+    top:15;
+    right:30px;
+    display: flex;
+    justify-content: flex-end;
+    text-align:right;
+    align-self: flex-end;
+    width: 1025px; /*El ancho total del html es 1500*/
+
+}
+
+.margen{
+    left:50px;
+    font-size: 18px;
+}
+
+#gente2{
+    margin-left: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display: flex;
+    font-size: 16px;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+
+#abajo{
+    background-color: rgb(7, 20, 69);
+    padding-top: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.theme{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.fotos-theme{
+    margin-left: 5%;
+
+}
+
+#modoInterruptor{
+    height: 40px;
+    width: 40px;
+}
+
+#fotoUsuario{
+    height: 50px;
+    width: 50px;
+}
+
+.logout{
+    margin-left: 5%;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    font-size: 16px;
+    padding-top: 2%;
+}
+
+.ultimo{
+    padding-bottom: 5%;
+}
+}
+
+@media only screen and (min-width:1200px) and (max-width:3000px){
+    h1{
+        width: 100%;
+        height: 90px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(7, 26, 97);
+        font: white;
+        font-size: 45px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    .contenedor {
+        position: relative;
+        width: 100%;
+        max-height: 600px;
+        overflow: hidden;
+    }
+    
+    #casita{
+        height:50px;
+        width: 50px;
+    }
+    
+    .imagen-superpuesta {
+    position: absolute;
+    bottom: 0px;
+    left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+    width: 400px;
+    }
+    
+    .texto-inferior {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: #fff; /* Color de texto */
+        text-align: center; /* Centra el texto horizontalmente */
+        padding: 10px; /* Espaciado interno para el texto */
+        right:60px;
+        font-size: 50px;
+    }
+    
+    #links{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        font-size: 30px;
+        margin: 2%;
+    }
+    
+    #numeros{
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 32px;
+        -webkit-text-fill-color: rgb(50, 163, 250);
+    }
+    
+    #numeros2{
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 30px;
+    }
+    
+    #numeros3{
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 32px;
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-top: 2.5%;
+    }
+    
+    #social{
+        display: flex;
+        justify-content: flex-start;
+        margin: 5%;
+        flex-direction: column;
+        font-size: 35px;
+    }
+    
+    .activity{
+        font-size: 35px;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+    }
+    
+    .status{
+        background-color: rgba(45, 68, 149, 0.866);
+    }
+    
+    .status-entry {
+        background-color: rgba(45, 68, 149, 0.866);
+        display: flex;
+        font-size: 30px;
+        margin-top: 2%;
+    
+      }
+      
+      .reply-entry {
+        border-left: 1px solid #ddd;
+        padding-left: 10px;
+        margin-top: 2%;
+        background-color: rgba(45, 68, 149, 0.866);
+        margin-left:2%;
+    
+      }
+      
+      .user-avatar img {
+        border-radius: 50%;
+      }
+      .user-avatar{
+        margin-right: 2%;
+        margin-left: 1%;
+        margin-top: 1%;
+      }
+    
+    .user-name{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+    }
+    
+      .status-entry,
+    .reply-entry {
+      position: relative;
+    }
+    
+    .timestamp {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 20px;
+      color: #888;
+      margin-right: 1%;
+      margin-top: 1%;
+    }
+      
+    
+    .write-status {
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 10px;
+        line-height: 1.5;
+        min-height: 40px;
+        cursor: text;
+        caret-color: white;
+    }
+    
+    #gente{
+        margin-left: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display: flex;
+        font-size: 30px;
+        margin-right: 5%;
+        position:relative;
+    }
+    
+    .visto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+    }
+    
+    .naruto{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 10px;
+    }
+    
+    .time{
+        position:absolute;
+        top:15;
+        right:30px;
+        display: flex;
+        justify-content: flex-end;
+        text-align:right;
+        align-self: flex-end;
+        width: 1025px; /*El ancho total del html es 1500*/
+    
+    }
+    
+    .margen{
+        left:50px;
+        font-size: 35px;
+    }
+    
+    #gente2{
+        margin-left: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display: flex;
+        font-size: 30px;
+        margin-right: 5%;
+        margin-top: 2.5%;
+    }
+    
+    #abajo{
+        background-color: rgb(7, 20, 69);
+        padding-top: 0.5%;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    
+    .theme{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 5%;
+        font-size: 35px;
+    }
+    
+    .fotos-theme{
+        margin-left: 5%;
+    
+    }
+    
+    .logout{
+        margin-left: 5%;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        font-size: 30px;
+        padding-top: 2%;
+    }
+    
+    .ultimo{
+        padding-bottom: 5%;
+    }
+
+}
+
+/*Para pantalla smart de clase*/
+@media only screen and (min-width: 3001px) {
+    h1{
+        width: 100%;
+        height: 170px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(7, 26, 97);
+        font: white;
+        font-size: 70px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    
+    .contenedor {
+        position: relative;
+        width: 100%;
+        max-height: 900px;
+        overflow: hidden;
+    }
+    
+    .imagen-fondo {
+        width: 100%;
+        height: 800px;
+    }
+    
+    div img {
+        height: 550px;
+        width: 400px;
+    }
+    
+    a img{
+        height:50px;
+        width: 50px;
+    }
+    
+    #casita{
+        height:150px;
+        width: 150px;
+    }
+    
+    .imagen-superpuesta {
+    position: absolute;
+    bottom: 0px;
+    left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+    width: 550px;
+    height: 550px;
+    }
+    
+    .texto-inferior {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: #fff; /* Color de texto */
+        text-align: center; /* Centra el texto horizontalmente */
+        padding: 10px; /* Espaciado interno para el texto */
+        right: 780;
+        font-size: 100px;
+    }
+    
+    #links{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        font-size: 52px;
+        margin: 2%;
+    }
+    
+    #numeros{
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 55px;
+        -webkit-text-fill-color: rgb(50, 163, 250);
+    }
+    
+    #numeros2{
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 52px;
+    }
+    
+    #numeros3{
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 55px;
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-top: 2.5%;
+    }
+    
+    #social{
+        display: flex;
+        justify-content: flex-start;
+        margin: 5%;
+        flex-direction: column;
+        font-size: 52px;
+    }
+    
+    .activity{
+        font-size: 70px;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+    }
+    
+    .status{
+        background-color: rgba(45, 68, 149, 0.866);
+    }
+    
+    .status-entry {
+        background-color: rgba(45, 68, 149, 0.866);
+        display: flex;
+        font-size: 50px;
+        margin-top: 2%;
+    
+      }
+      
+      .reply-entry {
+        border-left: 1px solid #ddd;
+        padding-left: 10px;
+        margin-top: 2%;
+        background-color: rgba(45, 68, 149, 0.866);
+        margin-left:2%;
+        font-size: 50px;
+    
+      }
+      
+      .user-avatar img {
+        border-radius: 50%;
+      }
+      .user-avatar{
+        margin-right: 2%;
+        margin-left: 1%;
+        margin-top: 1%;
+      }
+    
+    .user-name{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        font-size: 50px;
+    }
+    
+      .status-entry,
+    .reply-entry {
+      position: relative;
+      font-size: 50px;
+      padding-bottom: 2px;
+    }
+    
+    .timestamp {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 45px;
+      color: #888;
+      margin-right: 1%;
+      margin-top: 1%;
+    }
+      
+    
+    .write-status {
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 30px;
+        line-height: 1.5;
+        min-height: 50px;
+        cursor: text;
+        caret-color: white;
+    }
+    
+    #gente{
+        margin-left: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display: flex;
+        font-size: 50px;
+        margin-right: 5%;
+        position:relative;
+    }
+    
+    .visto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 1%;
+    }
+    
+    .naruto{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 10px;
+    }
+    
+    
+    .margen{
+        left:50px;
+        font-size: 58px;
+    }
+    
+    #gente2{
+        margin-left: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        display: flex;
+        font-size: 52px;
+        margin-right: 5%;
+        margin-top: 2.5%;
+    }
+    
+    #abajo{
+        background-color: rgb(7, 20, 69);
+        padding-top: 0.5%;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    
+    .theme{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 5%;
+        font-size: 60px;
+    }
+    
+    .fotos-theme{
+        margin-left: 5%;
+    
+    }
+    
+    #modoInterruptor{
+        height: 120px;
+        width: 120px;
+    }
+    
+    #fotoUsuario{
+        height: 180px;
+        width: 180px;
+    }
+    
+    .logout{
+        margin-left: 5%;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        font-size: 48px;
+        padding-top: 2%;
+    }
+    
+    .ultimo{
+        padding-bottom: 5%;
+    }
+}

@@ -1,0 +1,462 @@
+
+
+body{
+    margin:0px;
+    background-color: rgba(18, 35, 96, 0.911);
+    -webkit-text-fill-color: aliceblue;
+}
+
+@media only screen and (max-width:767px){
+
+    #casita{
+        height:40px;
+        width: 40px;
+    }
+
+    #modoInterruptor{
+        height: 40px;
+        width: 40px;
+    }
+
+    #lupa{
+        height:45px;
+        width: 45px;
+    }
+
+    #perfil{
+        height:50px;
+        width: 50px;
+    }
+
+    a img{
+        height:35px;
+    }
+
+    div img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .contenedor {
+            position: relative;
+            width: 100%;
+            max-height: 600px;
+            overflow: hidden;
+    }
+    
+    .imagen-fondo {
+        width: 100%;
+        height: 190px;
+    }
+
+    .imagen-superpuesta {
+        position: absolute;
+        bottom: 0px;
+        left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+        z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+        width: 130px;
+    }
+    
+    .texto-inferior {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: #fff; 
+        text-align: center; /* Centra el texto horizontalmente */
+        padding: 10px; /* Espaciado interno para el texto */
+        left:20px;
+        font-size: 25px;
+    }
+    
+    #links{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        font-size: 16px;
+        margin: 2%;
+    }
+    
+    .anime{
+        -webkit-text-fill-color: grey;
+    }
+    
+    #filter{
+        margin: 5%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        background-color: rgba(45, 68, 149, 0.866);
+    }
+    
+    .filter-texto{
+        margin-left: 2%;
+        font-size: 25px;
+    }
+    
+    h1{
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    
+    #encabezado{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(45, 68, 149, 0.866);
+        font-size: 20px;
+    }
+    
+    #todos{
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        font-size: 18px;
+    }
+    
+    .serie{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 2%;
+        padding-bottom:1%;
+    }
+    
+    .texto{
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    #abajo{
+        background-color: rgb(7, 20, 69);
+        padding-top: 0.5%;
+        margin-top: 2%;
+    }
+    
+    .theme{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    
+    .fotos-theme{
+        margin-left: 5%;
+    
+    }
+    
+    .logout{
+        margin-left: 5%;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        font-size: 16px;
+        padding-top: 2%;
+    }
+    
+    .ultimo{
+        padding-bottom: 5%;
+    }
+    
+    
+
+}
+
+@media only screen and (min-width: 1200px)and (max-width:3000px){
+
+    #casita{
+        height:50px;
+        width: 50px;
+    }
+
+    #perfil{
+        height: 60px;
+        width: 60px;
+    }
+
+    #modoInterruptor {
+        height: 50px;
+        width: 50px;
+        margin-top: 1%;
+    }
+
+    #lupa{
+        height:90px;
+        width: 90px;
+    }
+
+    .contenedor {
+        position: relative;
+        width: 100%;
+        max-height: 600px;
+        overflow: hidden;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 400px;
+}
+
+.imagen-superpuesta {
+    position: absolute;
+    bottom: 0px;
+    left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+    width: 280px;
+    height: 280px;
+}
+
+
+div img{
+    height: 250px;
+    width: 250px;
+}
+
+.texto-inferior {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff; /* Color de texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Espaciado interno para el texto */
+    right:90px;
+    font-size: 50px;
+}
+
+#links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 35px;
+    margin: 2%;
+}
+
+.anime{
+    -webkit-text-fill-color: grey;
+}
+
+#filter{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgba(45, 68, 149, 0.866);
+}
+
+.filter-texto{
+    margin-left: 2%;
+    font-size: 35px;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+#encabezado{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(45, 68, 149, 0.866);
+    font-size: 30px;
+}
+
+#todos{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    font-size: 33px;
+}
+
+.serie{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2%;
+    padding-bottom:1%;
+}
+
+.texto{
+    margin-left: 1%;
+}
+
+#abajo{
+    background-color: rgb(7, 20, 69);
+    padding-top: 0.5%;
+    margin-top: 2%;
+}
+
+.theme{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.fotos-theme{
+    margin-left: 5%;
+
+}
+
+.logout{
+    margin-left: 5%;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+.ultimo{
+    padding-bottom: 5%;
+}
+
+
+
+}
+
+/* Pantalla smart de clase*/
+@media only screen and (min-width: 3001px) {
+    #casita{
+        height:150px;
+        width: 150px;
+    }
+
+    #modoInterruptor{
+        height: 120px;
+        width: 120px;
+    }
+
+    #lupa{
+        height:120px;
+        width: 120px;
+    }
+
+    #perfil{
+        height:160px;
+        width: 160px;
+    }
+
+    a img{
+        height:50px;
+        width: 50px;
+    }
+
+    div img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .contenedor {
+            position: relative;
+            width: 100%;
+            max-height: 900px;
+            overflow: hidden;
+    }
+    
+    .imagen-fondo {
+        width: 100%;
+        height: 800px;
+    }
+
+    .imagen-superpuesta {
+        position: absolute;
+        bottom: 0px;
+        left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+        z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+        width: 550px;
+        height: 550px;
+    }
+    
+    .texto-inferior {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: #fff; 
+        text-align: center; /* Centra el texto horizontalmente */
+        padding: 10px; /* Espaciado interno para el texto */
+        right: 780;
+        font-size: 100px;
+    }
+    
+    #links{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        font-size: 52px;
+        margin: 2%;
+    }
+    
+    .anime{
+        -webkit-text-fill-color: grey;
+    }
+    
+    #filter{
+        margin: 5%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        background-color: rgba(45, 68, 149, 0.866);
+    }
+    
+    .filter-texto{
+        margin-left: 2%;
+        font-size: 45px;
+    }
+    
+    h1{
+        font-size: 65px;
+        margin-left: 5%;
+    }
+    
+    #encabezado{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(45, 68, 149, 0.866);
+        font-size: 50px;
+    }
+    
+    #todos{
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgba(45, 68, 149, 0.866);
+        font-size: 50px;
+    }
+    
+    .serie{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 2%;
+        padding-bottom:1%;
+    }
+    
+    .texto{
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    #abajo{
+        background-color: rgb(7, 20, 69);
+        padding-top: 0.5%;
+        margin-top: 2%;
+    }
+    
+    .theme{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+        margin-left: 5%;
+        font-size: 60px;
+    }
+    
+    .fotos-theme{
+        margin-left: 5%;
+    
+    }
+    
+    .logout{
+        margin-left: 5%;
+        -webkit-text-fill-color:rgb(153, 168, 183);
+        font-size: 48px;
+        padding-top: 2%;
+    }
+    
+    .ultimo{
+        padding-bottom: 5%;
+    }
+    
+    
+}

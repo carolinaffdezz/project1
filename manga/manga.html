@@ -1,0 +1,352 @@
+<html>
+    <head>
+        <link  rel="stylesheet" href="manga.css" id="estiloActual">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1" />
+        <!--Para que se vean los filtros al hacer click-->
+        <style>
+            #filter-options {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+    
+            #filter-options a {
+                padding: 12px 16px;
+                display: block;
+                color: #333;
+                text-decoration: none;
+            }
+    
+            #filter-options a:hover {
+                background-color: #ddd;
+            }
+        </style>
+    </head>
+    
+
+    <body>
+<div class="contenedor">
+    <img class="imagen-fondo" src="/project1/fotos/  copia 6.jpg" alt="Imagen de fondo">
+    <img class="imagen-superpuesta" src="https://i.pinimg.com/736x/c5/37/51/c537514842e075654fe04aab0e7a6d2f.jpg" alt="Imagen superpuesta">
+    <div class="texto-inferior">
+        <p><strong>carolinaffdezz</strong></p>
+    </div>
+</div>
+
+
+
+
+
+<div id="links">
+    <div>
+        <a href="/project1/index.html"> <img id="casita" src="https://static.vecteezy.com/system/resources/previews/013/743/156/non_2x/white-house-icon-png.png" alt="home"> </a>
+    </div>
+    <div>
+        <a href="/project1/anime/anime.html"> Anime </a>
+    </div>
+    <div class="anime">
+        Manga
+    </div>
+    <div>
+        <a href="/project1/profile/profile.html"><img id="perfil" src="https://static.vecteezy.com/system/resources/previews/014/396/452/non_2x/comic-style-user-icon-with-transparent-background-file-png.png" alt="home"></a>
+    </div>
+</div>
+<p>
+</p>
+
+<div id="filter">
+    <div>
+        <img id="lupa" src="https://static.vecteezy.com/system/resources/previews/010/154/854/original/magnifying-glass-sign-search-icon-free-png.png" alt="lupa">
+    </div>
+    <div id="filter" onclick="showFilterOptions()">
+        <div id="filter-texto" contenteditable="true" onclick="clearStatusText()">Filter</div>
+    </div>
+    
+    <div id="filter-options">
+        <a href="#">Action</a>
+        <a href="#">Adventure</a>
+        <a href="#">Fantasy</a>
+    </div>
+</div>
+
+<h1>
+    Reading
+</h1>
+
+<div id="encabezado">
+    <div>
+        Title
+    </div>
+    <div>
+        Progress
+    </div>
+</div>
+
+<div id="todos">
+    <div class="serie">
+        <div class="imagen">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/89e68f6b-d5ca-4f55-88d1-9aa70906a789/dew7i10-93fb7a45-b559-44ab-8b3e-cc4f1b7306a5.png/v1/fill/w_894,h_894,q_70,strp/asta_black_clover_fanart_by_ars_by_ars_2707_dew7i10-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMCIsInBhdGgiOiJcL2ZcLzg5ZTY4ZjZiLWQ1Y2EtNGY1NS04OGQxLTlhYTcwOTA2YTc4OVwvZGV3N2kxMC05M2ZiN2E0NS1iNTU5LTQ0YWItOGIzZS1jYzRmMWI3MzA2YTUucG5nIiwid2lkdGgiOiI8PTEyMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Vu8p8-iYss8Ac_iZF9YcXzyKDeqVxG2ojB1vmNz_aNI" alt="Black Clover">
+        </div>
+        <div class="texto">
+            <div>
+                Black Clover
+            </div>
+            <div>
+                Progress: 349
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://comicvine.gamespot.com/a/uploads/square_medium/6/67663/7166979-01.jpg" alt="jujutsu">
+        </div>
+        <div class="texto">
+            <div>
+                Jujutsu kaisen
+            </div>
+            <div>
+                Progress: 11/23
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/10/07/2C37E5D0-5911-46EF-B7FB-AF34DDDA42EA/kimetsu-yaiba_104.jpg?crop=1080,1080,x422,y0&width=1200&height=1200&optimize=low&format=webply" alt="kimetsu">
+        </div>
+        <div class="texto">
+            <div>
+                Kimetsu no yaiba
+            </div>
+            <div>
+                Progress: 7/12
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1>
+    Completed
+</h1>
+
+<div id="encabezado">
+    <div>
+        Title
+    </div>
+    <div>
+        Score
+    </div>
+</div>
+
+<div id="todos">
+    <div class="serie">
+        <div class="imagen">
+            <img src="https://tusfondos.com/wp-content/uploads/2023/03/Cuadrado-One-Piece-C333.jpg" alt="one piece">
+        </div>
+        <div class="texto">
+            <div>
+                One piece
+            </div>
+            <div>
+                Score: 8.5
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://comicvine.gamespot.com/a/uploads/square_medium/6/67663/7166979-01.jpg" alt="jujutsu">
+        </div>
+        <div class="texto">
+            <div>
+                Jujutsu kaisen
+            </div>
+            <div>
+                Score: 8
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/10/07/2C37E5D0-5911-46EF-B7FB-AF34DDDA42EA/kimetsu-yaiba_104.jpg?crop=1080,1080,x422,y0&width=1200&height=1200&optimize=low&format=webply" alt="kimetsu">
+        </div>
+        <div class="texto">
+            <div>
+                Kimetsu no yaiba
+            </div>
+            <div>
+                Score:  9.5
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<h1>
+    Planning
+</h1>
+
+<div id="encabezado">
+    <div>
+        Title
+    </div>
+    <div>
+        Progress
+    </div>
+</div>
+
+<div id="todos">
+    <div class="serie">
+        <div class="imagen">
+            <img src="https://tusfondos.com/wp-content/uploads/2023/03/Cuadrado-One-Piece-C333.jpg" alt="one piece">
+        </div>
+        <div class="texto">
+            <div>
+                One piece
+            </div>
+            <div>
+                Progress: 249
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://comicvine.gamespot.com/a/uploads/square_medium/6/67663/7166979-01.jpg" alt="jujutsu">
+        </div>
+        <div class="texto">
+            <div>
+                Jujutsu kaisen
+            </div>
+            <div>
+                Progress: 11/23
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/10/07/2C37E5D0-5911-46EF-B7FB-AF34DDDA42EA/kimetsu-yaiba_104.jpg?crop=1080,1080,x422,y0&width=1200&height=1200&optimize=low&format=webply" alt="kimetsu">
+        </div>
+        <div class="texto">
+            <div>
+                Kimetsu no yaiba
+            </div>
+            <div>
+                Progress: 7/12
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1>
+    Dropped
+</h1>
+
+<div id="encabezado">
+    <div>
+        Title
+    </div>
+    <div>
+        Progress
+    </div>
+</div>
+
+<div id="todos">
+    <div class="serie">
+        <div class="imagen">
+            <img src="https://tusfondos.com/wp-content/uploads/2023/03/Cuadrado-One-Piece-C333.jpg" alt="one piece">
+        </div>
+        <div class="texto">
+            <div>
+                One piece
+            </div>
+            <div>
+                Progress: 249
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://comicvine.gamespot.com/a/uploads/square_medium/6/67663/7166979-01.jpg" alt="jujutsu">
+        </div>
+        <div class="texto">
+            <div>
+                Jujutsu kaisen
+            </div>
+            <div>
+                Progress: 11/23
+            </div>
+        </div>
+    </div>
+    <div class="serie">
+        <div>
+            <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/10/07/2C37E5D0-5911-46EF-B7FB-AF34DDDA42EA/kimetsu-yaiba_104.jpg?crop=1080,1080,x422,y0&width=1200&height=1200&optimize=low&format=webply" alt="kimetsu">
+        </div>
+        <div class="texto">
+            <div>
+                Kimetsu no yaiba
+            </div>
+            <div>
+                Progress: 7/12
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="abajo">
+    <h2 class="theme">
+        Site Theme
+    </h2>
+    <div class="fotos-theme">
+        <div>
+            <img id="modoInterruptor" src="https://cdn3.iconfinder.com/data/icons/photography/512/Icon_20-512.png" alt="theme" onclick="cambiarModo()" style="cursor: pointer;">
+        </div>
+    </div>
+    <div class="logout">
+        Logout
+    </div>
+    <div class="logout ultimo">
+        <p>We like to improve!</p>
+        <a href="/project1/form/form.html">Satisfaction form</a>
+    </div>
+
+
+
+</div>
+
+
+<script src="/project1/script.js"></script>
+
+<script>
+    function showFilterOptions() {
+        const filterOptions = document.getElementById('filter-options');
+
+        // Alternar la visibilidad de las opciones de filtro
+        if (filterOptions.style.display === 'block') {
+            filterOptions.style.display = 'none';
+        } else {
+            filterOptions.style.display = 'block';
+        }
+    }
+</script>
+
+<script>
+    function cambiarModo() {
+      const estiloActual = document.getElementById('estiloActual');
+
+      if (estiloActual.href.endsWith('manga.css')) {
+        estiloActual.href = 'manga_claro.css';
+      } else {
+        estiloActual.href = 'manga.css';
+      }
+    }
+</script>
+
+
+
+    </body>
+</html>

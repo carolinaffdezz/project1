@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <link  rel="stylesheet" href="form.css" id="estiloActual">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale="1" />
+    </head>
+    
+    <body>
+        <h1>
+            Anilist
+        </h1>
+
+        <div id="links">
+            <div>
+                <a href="/project1/index.html"> <img id="casita" src="https://static.vecteezy.com/system/resources/previews/013/743/156/non_2x/white-house-icon-png.png" alt="home"> </a>
+            </div>
+            <div class="anime">
+                <a href="../anime/anime.html"> Anime </a>
+            </div>
+            <div>
+                <a href="/project1/manga/manga.html"> Manga </a>
+            </div>
+            <div>
+                <a href="/project1/profile/profile.html"><img id="perfil" src="https://static.vecteezy.com/system/resources/previews/014/396/452/non_2x/comic-style-user-icon-with-transparent-background-file-png.png" alt="home"></a>
+            </div>
+        </div>
+        <p>
+        </p>
+
+        <div id="Title">
+            <strong>Satisfaction form</strong>
+        </div>
+        <div id="texto1">
+            Welcome to the satisfaction form! Thanks for your time to answer this questions in order to improve this website.
+        </div id="texto1">
+            <form action="submit.html" method="get">
+                <!-- Pregunta 1 -->
+                <div>
+                    <label for="experience">How would you rate your overall experience with AniList?</label>
+                    <select name="experience" id="experience">
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="average">Average</option>
+                        <option value="poor">Poor</option>
+                    </select>
+                </div>
+        
+                <!-- Pregunta 2 -->
+                <div>
+                    <label for="progress">How many anime or manga series have you marked as "Watching" or "Reading" on AniList?</label>
+                    <input type="number" id="progress" name="progress" min="0">
+                </div>
+        
+                <!-- Pregunta 3 -->
+                <div>
+                    <label for="recommend">Would you recommend AniList to a friend interested in anime and manga?</label>
+                    <input type="radio" id="yes" name="recommend" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="recommend" value="no">
+                    <label for="no">No</label>
+                </div>
+        
+
+        
+                <!-- Pregunta 4 -->
+                <div>
+                    <label for="interact">Do you actively interact with other users on AniList, such as discussing series or recommendations?</label>
+                    <input type="radio" id="yes-interact" name="interact" value="yes">
+                    <label for="yes-interact">Yes</label>
+                    <input type="radio" id="no-interact" name="interact" value="no">
+                    <label for="no-interact">No</label>
+                </div>
+        
+                <!-- Pregunta 5 -->
+                <div>
+                    <label for="suggestions">What features or improvements would you like to see on AniList in the future?</label>
+                    <textarea  id="texto1" id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
+                </div>
+        
+                <div  id="texto1" class="margen">
+
+                        <input type="submit" value="Submit"> <!--Si no te lleva a la página a la primera, recargar página y debería funcionar-->
+
+                </div>
+            </form>
+
+
+
+
+<div id="abajo">
+    <h2 class="theme">
+        Site Theme
+    </h2>
+    <div class="fotos-theme">
+        <div>
+            <img height="50px" id="modoInterruptor" src="https://cdn3.iconfinder.com/data/icons/photography/512/Icon_20-512.png" alt="theme" onclick="cambiarModo()" style="cursor: pointer;">
+        </div>
+    </div>
+    <div class="logout">
+        Logout
+    </div>
+    <div class="logout">
+        We like to improve!
+    </div>
+    <div class="logout ultimo">
+        <a href="/project1/form/form.html">Satisfaction form</a>
+    </div>
+
+
+
+</div>
+
+    <!-- Selección del js en el que trabajo -->
+    <script src="/project1/script.js"></script>
+
+
+<!-- Alterna el modo claro modo oscuro -->
+<script>
+    function cambiarModo() {
+      const estiloActual = document.getElementById('estiloActual');
+
+      if (estiloActual.href.endsWith('form.css')) {
+        estiloActual.href = 'form_claro.css';
+      } else {
+        estiloActual.href = 'form.css';
+      }
+    }
+</script>
+
+
+
+    </body>
+
+</html>

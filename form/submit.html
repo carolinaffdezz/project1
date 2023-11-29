@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link  rel="stylesheet" href="form.css" id="estiloActual">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1" />
+    </head>
+    <body>
+
+        <h1>
+            Anilist
+        </h1>
+        <div id="links">
+            <div>
+                <a href="/project1/index.html"> <img height=50px src="https://static.vecteezy.com/system/resources/previews/013/743/156/non_2x/white-house-icon-png.png" alt="home"> </a>
+            </div>
+            <div>
+                <a href="../anime/anime.html"> Anime </a>
+            </div>
+            <div>
+                <a href="/project1/manga/manga.html"> Manga </a>
+            </div>
+            <div>
+                <a href="/project1/profile/profile.html"><img height=70px src="https://static.vecteezy.com/system/resources/previews/014/396/452/non_2x/comic-style-user-icon-with-transparent-background-file-png.png" alt="home"></a>
+            </div>
+        </div>
+        <p>
+        
+        </p id="centrar">
+        <img class="img1"  src="https://www.mundodeportivo.com/alfabeta/hero/2019/07/luffy-y-amigos.jpg?width=1200" alt="submit">
+
+        <p id="centrar">
+            Thanks!
+        </p>
+
+        <div id="abajo">
+            <h2 class="theme">
+                Site Theme
+            </h2>
+            <div class="fotos-theme">
+                <div>
+                    <img height="50px" id="modoInterruptor" src="https://cdn3.iconfinder.com/data/icons/photography/512/Icon_20-512.png" alt="theme" onclick="cambiarModo()" style="cursor: pointer;">
+                </div>
+            </div>
+            <div class="logout">
+                Logout
+            </div>
+            <div class="logout ultimo">
+            </div>
+        
+        
+        
+        </div>
+
+
+
+</div>
+
+<!-- Selección del js en el que trabajo -->
+<script src="/project1/script.js"></script>
+
+<!-- Alterna el modo claro modo oscuro -->
+<script>
+    function cambiarModo() {
+      const estiloActual = document.getElementById('estiloActual');
+
+      if (estiloActual.href.endsWith('form.css')) {
+        estiloActual.href = 'form_claro.css';
+      } else {
+        estiloActual.href = 'form.css';
+      }
+    }
+</script>
+
+
+    </body>
+
+</html>
