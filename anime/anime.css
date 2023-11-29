@@ -189,12 +189,6 @@
 
 
 @media only screen and (min-width: 1200px) and (max-width: 3000px){
-    #filter-options a {
-        padding: 30px 34px;
-        display: block;
-        color: #333;
-        text-decoration: none;
-    }
     
     #casita{
         height:50px;
@@ -229,6 +223,7 @@
         padding: 12px 16px;
         display: block;
         color: rgba(45, 68, 149, 0.866);
+        font-size: 30px;
     }
     
     #filter-options a:hover,
@@ -381,12 +376,6 @@
 /*Para pantalla smart de clase*/
 
 @media only screen and (min-width: 3001px){
-    #filter-options a {
-        padding: 45px 49px;
-        display: block;
-        color: #333;
-        text-decoration: none;
-    }
     #lupa{
         height:120px;
         width: 120px;
@@ -413,6 +402,7 @@
         padding: 12px 16px;
         display: block;
         color: rgba(45, 68, 149, 0.866);
+        font-size:52px;
     }
     
     #filter-options a:hover,
