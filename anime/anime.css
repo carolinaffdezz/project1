@@ -1,7 +1,12 @@
 
 
 @media only screen and (max-width:767px) {
-
+    #filter-options a {
+        padding: 12px 16px;
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
     #lupa{
         height:45px;
         width: 45px;
@@ -184,7 +189,13 @@
 
 
 @media only screen and (min-width: 1200px) and (max-width: 3000px){
-
+    #filter-options a {
+        padding: 30px 34px;
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
+    
     #casita{
         height:50px;
         width: 50px;
@@ -370,7 +381,12 @@
 /*Para pantalla smart de clase*/
 
 @media only screen and (min-width: 3001px){
-
+    #filter-options a {
+        padding: 45px 49px;
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
     #lupa{
         height:120px;
         width: 120px;
