@@ -297,6 +297,11 @@ width: 130px;
         overflow: hidden;
     }
 
+    #fotoUsuario{
+        height:50px;
+        width: 50px;
+    }
+
         
     #casita{
         height:50px;
