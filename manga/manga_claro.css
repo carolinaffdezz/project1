@@ -5,7 +5,13 @@ body{
 
 
 @media only screen and (max-width:767px){
-
+    #filter-options a {
+        padding: 12px 16px;
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
+    
     #casita{
         height:40px;
         width: 40px;
@@ -159,6 +165,13 @@ h1{
 }
 
 @media only screen and (min-width: 1200px)and (max-width:3000px){
+        #filter-options a {
+        padding: 32px 36px;
+        display: block;
+        color: #333;
+        text-decoration: none;
+        font-size:30px;
+    }
     #casita{
         height:50px;
         width: 50px;
@@ -309,6 +322,14 @@ h1{
 
 /* Pantalla smart de clase*/
 @media only screen and (min-width: 3001px) {
+        #filter-options a {
+        padding: 54px 58px;
+        display: block;
+        color: #333;
+        text-decoration: none;
+        font-size:50px;
+    }
+    
     #casita{
         height:150px;
         width: 150px;
