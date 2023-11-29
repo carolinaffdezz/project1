@@ -298,6 +298,11 @@ width: 130px;
         height:50px;
         width: 50px;
     }
+
+    #fotoUsuario{
+        height:50px;
+        width: 50px;
+    }
     
     .imagen-superpuesta {
     position: absolute;
